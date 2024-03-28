@@ -1,0 +1,8 @@
+"""
+Write a Python program to retrieve the path and name of the file currently being executed.
+"""
+
+import os
+
+print(os.getcwd())
+print(os.path.realpath(__file__))

@@ -5,3 +5,4 @@ for i in range(1, 6):
     for k in range(2 * i - 1, 0, -1):
         print("*  ", end=" ")
     print()
+    # Commenting changes
